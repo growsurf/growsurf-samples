@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script type="text/javascript">
+          // Replace with the snippet of code provided to you within the last step of your Campaign editor
+          (function(g,r,s,f){g.growsurf={};g.grsfSettings={campaignId:"<CAMPAIGN_ID>",version:"2.0.0"};s=r.getElementsByTagName("head")[0];f=r.createElement("script");f.async=1;f.src="https://growsurf.com/growsurf.js"+"?v="+g.grsfSettings.version;f.setAttribute("grsf-campaign", g.grsfSettings.campaignId);!g.grsfInit?s.appendChild(f):"";})(window,document);
+        </script>
+    </head>
+    <body>
+        
+        <div id="app">
+          <div style="margin: auto; width: 400px">
+            <h3>Vue.js + GrowSurf (<span v-if="grsfReady" style="color: greenyellow">Ready</span><span v-if="!grsfReady" style="color: red">Not Ready</span>)</h3>
+            <p>Simple Example of Vue.js with GrowSurf</p>
+            <div data-grsf-block-form></div>
+          </div>
+        </div>
+            
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -59,7 +59,8 @@ class App extends React.Component {
   render() {
     return (
       <div style={{ margin: 'auto', width: '400px' }}>
-        <div className='App'>REACT + GROWSURF</div>
+        <div className='App'>React + GrowSurf</div>
+        <p>Simple example of GrowSurf with React</p>
         <div data-grsf-block-form></div>
       </div>
     ) 
