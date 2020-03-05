@@ -2,7 +2,9 @@
 
 ### React
 
-In this example code with add the GrowSurf script within a React component and auto authenticate a participant.
+In this example we add the GrowSurf script within a React component and auto authenticate a participant.
 
 
-### More to come...
+### Vue.js
+
+In this example we include our GrowSurf [form embeddable element](https://docs.growsurf.com/integrate/javascript-web-api/embeddable-elements#embedded-form) within a Vue.js view.
