@@ -11,7 +11,7 @@ existing coding project or framework.
 
 ## Examples
 
-Within the [examples](examples/README.md) you will find various examples of how to use GrowSurf with some of the most
+Within the [examples](https://github.com/growsurf/growsurf-samples/tree/master/samples) you will find various examples of how to use GrowSurf with some of the most
 common frameworks e.g. React, Vue.js, ...more to come.
 
 ## Contributing
